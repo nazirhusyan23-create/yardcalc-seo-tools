@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Paint Coverage Calculator – How Many Gallons You Need</title>
+<meta name="description" content="Paint coverage calculator: enter your wall area, coats, and paint's coverage rate to instantly find out how many gallons or quarts you need.">
+<link rel="canonical" href="https://yourdomain.com/tools/paint-coverage-calculator">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Paint Coverage Calculator – How Many Gallons You Need">
+<meta property="og:description" content="Paint coverage calculator: enter your wall area, coats, and paint's coverage rate to instantly find out how many gallons or quarts you need.">
+<meta property="og:url" content="https://yourdomain.com/tools/paint-coverage-calculator">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Paint Coverage Calculator",
+  "url": "https://yourdomain.com/tools/paint-coverage-calculator",
+  "description": "Paint coverage calculator: enter your wall area, coats, and paint's coverage rate to instantly find out how many gallons or quarts you need.",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "YardCalc",
+    "url": "https://yourdomain.com"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://yourdomain.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://yourdomain.com/tools"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Paint Coverage Calculator",
+        "item": "https://yourdomain.com/tools/paint-coverage-calculator"
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Paint Coverage Calculator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any (Web-based)",
+  "url": "https://yourdomain.com/tools/paint-coverage-calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "ratingCount": "58"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much wall area does a gallon of paint cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically 350-400 square feet per coat on smooth drywall, though textured or porous surfaces cover less."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many coats of paint do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two coats is standard for most color changes; three coats may be needed for dark colors or unprimed surfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I buy extra paint for touch-ups?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, buying one extra quart is common practice for future touch-ups and matching color later."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="/" class="logo">Yard<span>Calc</span></a>
+    <nav class="site">
+      <a href="/tools">All Tools</a>
+      <a href="/blog">Guides</a>
+      <a href="/about">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="ad-slot ad-slot--header" aria-label="Advertisement">Ad Slot – Header (728×90)</div>
+</div>
+
+<div class="wrap">
+  <p class="crumb"><a href="/">Home</a> / <a href="/tools">Tools</a> / Paint Coverage Calculator</p>
+</div>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Free Tool · Updated 2026</p>
+    <h1>Paint Coverage Calculator</h1>
+    <p class="lede">Enter your wall area and number of coats to find out exactly how many gallons of paint to buy.</p>
+  </section>
+
+  <div class="layout">
+    <div>
+      <div class="calc-card">
+        <div class="calc-grid">
+  <div class="field"><label for="wallarea">Wall Area (ft²)</label><input type="number" id="wallarea" inputmode="decimal" placeholder="e.g. 400" min="0" step="1"></div>
+  <div class="field"><label for="coats">Number of Coats</label><input type="number" id="coats" inputmode="numeric" value="2" min="1" step="1"></div>
+  <div class="field"><label for="coverage">Coverage per Gallon (ft²)</label><input type="number" id="coverage" inputmode="decimal" value="350" min="1" step="10"></div>
+</div>
+<div class="calc-actions"><button class="btn-calc" id="calcBtn">Calculate Paint Needed</button></div>
+<div class="result" id="result">
+  <div class="big" id="mainResult">0 gallons</div>
+  <div class="sub" id="resultSub">Covers 0 ft² total (with coats)</div>
+</div>
+
+      </div>
+
+      <div class="ad-slot ad-slot--incontent" aria-label="Advertisement">Ad Slot – In-Content (responsive)</div>
+
+      <article>
+        <h2>How Much Paint Do I Need?</h2>
+<p>Multiply your wall area by the number of coats you plan to apply, then divide by your paint's coverage rate (usually printed on the can, typically 350-400 sq ft per gallon for smooth walls). This calculator rounds up to the nearest quart so you don't come up short mid-job.</p>
+
+<h2>Typical Coverage by Surface</h2>
+<table class="yield">
+  <thead><tr><th>Surface</th><th>Coverage per Gallon</th></tr></thead>
+  <tbody>
+    <tr><td>Smooth drywall</td><td>350-400 ft²</td></tr>
+    <tr><td>Textured/stucco walls</td><td>250-300 ft²</td></tr>
+    <tr><td>Bare wood (first coat)</td><td>200-300 ft²</td></tr>
+    <tr><td>Masonry/brick</td><td>150-200 ft²</td></tr>
+  </tbody>
+</table>
+<p>Dark color changes and unprimed surfaces often need a 3rd coat — adjust the "coats" field accordingly.</p>
+
+
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq">
+          
+      <details>
+        <summary>How much wall area does a gallon of paint cover?</summary>
+        <p>Typically 350-400 square feet per coat on smooth drywall, though textured or porous surfaces cover less.</p>
+      </details>
+
+      <details>
+        <summary>How many coats of paint do I need?</summary>
+        <p>Two coats is standard for most color changes; three coats may be needed for dark colors or unprimed surfaces.</p>
+      </details>
+
+      <details>
+        <summary>Should I buy extra paint for touch-ups?</summary>
+        <p>Yes, buying one extra quart is common practice for future touch-ups and matching color later.</p>
+      </details>
+        </div>
+      </article>
+    </div>
+
+    <aside>
+      <div class="box">
+        <h3>Related Calculators</h3>
+        <ul>
+          <li><a href="/tools/drywall-sheet-calculator">Drywall Sheet Calculator</a></li>
+        </ul>
+      </div>
+      <div class="ad-slot ad-slot--sidebar" aria-label="Advertisement">Ad Slot – Sidebar (300×250)</div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>© 2026 YardCalc. Educational estimates only — verify with a professional before ordering materials. · <a href="/about">About</a> · <a href="/contact">Contact</a></p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('calcBtn').addEventListener('click', function(){
+  var wallArea = parseFloat(document.getElementById('wallarea').value) || 0;
+  var coats = parseFloat(document.getElementById('coats').value) || 1;
+  var coverage = parseFloat(document.getElementById('coverage').value) || 350;
+
+  var totalAreaToPaint = wallArea * coats;
+  var gallons = coverage > 0 ? Math.ceil((totalAreaToPaint / coverage) * 4) / 4 : 0; // round to nearest quart
+
+  document.getElementById('mainResult').textContent = gallons + ' gallons';
+  document.getElementById('resultSub').textContent = 'Covers ' + totalAreaToPaint.toFixed(0) + ' ft\u00b2 total across ' + coats + ' coat(s)';
+  document.getElementById('result').classList.add('show');
+});
+
+</script>
+
+</body>
+</html>

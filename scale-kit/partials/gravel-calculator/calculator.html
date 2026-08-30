@@ -1,0 +1,18 @@
+<div class="calc-grid">
+  <div class="field"><label for="length">Area Length (ft)</label><input type="number" id="length" inputmode="decimal" placeholder="e.g. 20" min="0" step="0.01"></div>
+  <div class="field"><label for="width">Area Width (ft)</label><input type="number" id="width" inputmode="decimal" placeholder="e.g. 10" min="0" step="0.01"></div>
+  <div class="field"><label for="depth">Depth (inches)</label><input type="number" id="depth" inputmode="decimal" placeholder="e.g. 3" min="0" step="0.25"></div>
+  <div class="field"><label for="density">Gravel Type</label>
+    <select id="density">
+      <option value="1.4">Gravel (1.4 tons/yd³)</option>
+      <option value="1.5">Crushed Stone (1.5 tons/yd³)</option>
+      <option value="1.35">Pea Gravel (1.35 tons/yd³)</option>
+      <option value="1.2">River Rock (1.2 tons/yd³)</option>
+    </select>
+  </div>
+</div>
+<div class="calc-actions"><button class="btn-calc" id="calcBtn">Calculate Gravel Needed</button></div>
+<div class="result" id="result">
+  <div class="big" id="mainResult">0 yd³</div>
+  <div class="sub" id="resultSub">Approx. 0 tons · 0 ft³</div>
+</div>

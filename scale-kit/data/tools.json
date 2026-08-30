@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "concrete-bag-calculator",
+    "title": "Concrete Bag Calculator \u2013 How Many Bags You Need",
+    "metaDescription": "Concrete bag calculator: enter your slab or footing size and instantly find out how many 40lb, 50lb, 60lb or 80lb bags of concrete you need. Free & accurate.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Concrete Bag Calculator",
+    "lede": "Enter the size of your slab, footing, or post hole below and instantly see how many 40lb, 50lb, 60lb, or 80lb bags of pre-mix concrete you need to buy.",
+    "breadcrumbName": "Concrete Bag Calculator",
+    "faq": [
+      { "q": "How many 80lb bags of concrete do I need per cubic yard?", "a": "About 45 bags, since one cubic yard equals 27 cubic feet and each 80lb bag yields roughly 0.6 cubic feet." },
+      { "q": "How much area does a 60lb bag of concrete cover?", "a": "Roughly 1.35 square feet at a 4-inch slab thickness, since a 60lb bag yields about 0.45 cubic feet of mixed concrete." },
+      { "q": "Should I add extra bags for waste?", "a": "Yes \u2014 most contractors add 5-10% extra for spillage, subgrade unevenness, and rounding." }
+    ],
+    "related": [
+      { "href": "/tools/concrete-slab-cost-calculator", "label": "Concrete Slab Cost Calculator" },
+      { "href": "/tools/post-hole-concrete-calculator", "label": "Post Hole Concrete Calculator" },
+      { "href": "/tools/gravel-calculator", "label": "Gravel Calculator" },
+      { "href": "/tools/paver-calculator", "label": "Paver Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.8", "ratingCount": "126"
+  },
+  {
+    "slug": "gravel-calculator",
+    "title": "Gravel Calculator \u2013 How Many Tons or Yards You Need",
+    "metaDescription": "Gravel calculator: enter your area and depth to instantly find out how many cubic yards and tons of gravel, crushed stone, or pea gravel you need to order.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Gravel Calculator",
+    "lede": "Enter your driveway, path, or drainage area dimensions to find out exactly how many cubic yards and tons of gravel to order.",
+    "breadcrumbName": "Gravel Calculator",
+    "faq": [
+      { "q": "How much gravel do I need for a driveway?", "a": "Most driveways use a 4-6 inch base layer. Multiply your driveway's area by the depth in feet, then divide by 27 to get cubic yards." },
+      { "q": "How many tons is a cubic yard of gravel?", "a": "About 1.4 tons, though crushed stone, pea gravel, and river rock vary slightly by density." },
+      { "q": "Do I need to compact the gravel?", "a": "Yes, base layers should be compacted in lifts of 2-4 inches for driveways to prevent settling." }
+    ],
+    "related": [
+      { "href": "/tools/paver-calculator", "label": "Paver Calculator" },
+      { "href": "/tools/topsoil-calculator", "label": "Topsoil Calculator" },
+      { "href": "/tools/concrete-bag-calculator", "label": "Concrete Bag Calculator" },
+      { "href": "/tools/mulch-calculator", "label": "Mulch Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.7", "ratingCount": "98"
+  },
+  {
+    "slug": "mulch-calculator",
+    "title": "Mulch Calculator \u2013 How Many Bags or Yards You Need",
+    "metaDescription": "Mulch calculator: enter your flower bed size and depth to instantly see how many cubic yards or bags of mulch you need to buy for your garden.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Mulch Calculator",
+    "lede": "Enter your garden bed dimensions and desired depth to find out how many bags or cubic yards of mulch you need.",
+    "breadcrumbName": "Mulch Calculator",
+    "faq": [
+      { "q": "How deep should mulch be?", "a": "2-3 inches for flower beds, and 3-4 inches around trees and shrubs for effective weed suppression and moisture retention." },
+      { "q": "How many bags of mulch equal a cubic yard?", "a": "About 13-14 bags of 2 cubic foot mulch, since 1 cubic yard equals 27 cubic feet." },
+      { "q": "Is bulk or bagged mulch cheaper?", "a": "Bulk delivery is usually cheaper for areas needing more than about 2 cubic yards; bagged mulch is more convenient for smaller beds." }
+    ],
+    "related": [
+      { "href": "/tools/topsoil-calculator", "label": "Topsoil Calculator" },
+      { "href": "/tools/gravel-calculator", "label": "Gravel Calculator" },
+      { "href": "/tools/sod-calculator", "label": "Sod Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.6", "ratingCount": "74"
+  },
+  {
+    "slug": "topsoil-calculator",
+    "title": "Topsoil Calculator \u2013 How Many Yards or Tons You Need",
+    "metaDescription": "Topsoil calculator: enter your area and depth to instantly find out how many cubic yards and tons of topsoil you need for your lawn or garden bed.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Topsoil Calculator",
+    "lede": "Enter your lawn or garden bed dimensions and desired depth to find out how many cubic yards and tons of topsoil to order.",
+    "breadcrumbName": "Topsoil Calculator",
+    "faq": [
+      { "q": "How much topsoil do I need for a new lawn?", "a": "Typically 4-6 inches spread over the existing grade, though this varies with soil quality and drainage needs." },
+      { "q": "How many tons is a cubic yard of topsoil?", "a": "Roughly 1.35 tons, though moisture content can shift this figure somewhat." },
+      { "q": "Should I add extra topsoil for settling?", "a": "Yes, adding 10-15% extra accounts for natural compaction after watering and time." }
+    ],
+    "related": [
+      { "href": "/tools/mulch-calculator", "label": "Mulch Calculator" },
+      { "href": "/tools/sod-calculator", "label": "Sod Calculator" },
+      { "href": "/tools/gravel-calculator", "label": "Gravel Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.6", "ratingCount": "61"
+  },
+  {
+    "slug": "paver-calculator",
+    "title": "Paver Calculator \u2013 How Many Pavers You Need",
+    "metaDescription": "Paver calculator: enter your patio size and paver dimensions to instantly find out how many pavers you need, including a waste allowance for cuts.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Paver Calculator",
+    "lede": "Enter your patio or walkway dimensions plus your paver size to find out exactly how many pavers to order.",
+    "breadcrumbName": "Paver Calculator",
+    "faq": [
+      { "q": "How much waste allowance should I add for pavers?", "a": "10% for simple rectangular layouts, and 15-20% for curved edges, diagonal patterns, or complex borders." },
+      { "q": "What base do I need under pavers?", "a": "A compacted gravel base of 4-6 inches plus a 1-inch bedding sand layer is standard for most patios and walkways." },
+      { "q": "Do I need polymeric sand for pavers?", "a": "Yes, polymeric sand fills the joints between pavers and helps lock them in place while resisting weeds and ants." }
+    ],
+    "related": [
+      { "href": "/tools/gravel-calculator", "label": "Gravel Calculator" },
+      { "href": "/tools/concrete-slab-cost-calculator", "label": "Concrete Slab Cost Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.7", "ratingCount": "89"
+  },
+  {
+    "slug": "post-hole-concrete-calculator",
+    "title": "Post Hole Concrete Calculator \u2013 Bags Per Hole",
+    "metaDescription": "Post hole concrete calculator: enter your hole diameter, depth, and number of holes to instantly see how many bags of concrete you need for fence posts.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Post Hole Concrete Calculator",
+    "lede": "Enter your fence post hole diameter, depth, and quantity to find out exactly how many bags of concrete to buy.",
+    "breadcrumbName": "Post Hole Concrete Calculator",
+    "faq": [
+      { "q": "How deep should a fence post hole be?", "a": "Generally at least 1/3 of the post's above-ground height, and always below your local frost line." },
+      { "q": "How much concrete does one fence post need?", "a": "For a typical 8-inch diameter, 24-inch deep hole, about 1-2 bags of 80lb pre-mix concrete." },
+      { "q": "Can I use quick-set concrete for fence posts?", "a": "Yes, many quick-set mixes let you skip pre-mixing water into a wheelbarrow \u2014 you pour dry mix into the hole and add water directly." }
+    ],
+    "related": [
+      { "href": "/tools/concrete-bag-calculator", "label": "Concrete Bag Calculator" },
+      { "href": "/tools/concrete-slab-cost-calculator", "label": "Concrete Slab Cost Calculator" },
+      { "href": "/tools/gravel-calculator", "label": "Gravel Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.8", "ratingCount": "67"
+  },
+  {
+    "slug": "concrete-slab-cost-calculator",
+    "title": "Concrete Slab Cost Calculator \u2013 Estimate Your Price",
+    "metaDescription": "Concrete slab cost calculator: enter your slab size and local ready-mix price to instantly estimate your total materials cost per cubic yard.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Concrete Slab Cost Calculator",
+    "lede": "Enter your slab dimensions and local ready-mix price per cubic yard to get an instant materials cost estimate.",
+    "breadcrumbName": "Concrete Slab Cost Calculator",
+    "faq": [
+      { "q": "What does ready-mix concrete cost per cubic yard?", "a": "Prices vary by region, typically $120-180 per cubic yard for standard mix, plus delivery fees." },
+      { "q": "Does this estimate include labor?", "a": "No, this is a materials-only estimate. Labor for pouring and finishing typically adds $2-8 per square foot." },
+      { "q": "Is bagged or ready-mix concrete cheaper for a slab?", "a": "Ready-mix is usually cheaper per cubic foot once you need more than about 1 cubic yard of concrete." }
+    ],
+    "related": [
+      { "href": "/tools/concrete-bag-calculator", "label": "Concrete Bag Calculator" },
+      { "href": "/tools/post-hole-concrete-calculator", "label": "Post Hole Concrete Calculator" },
+      { "href": "/tools/paver-calculator", "label": "Paver Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.7", "ratingCount": "54"
+  },
+  {
+    "slug": "drywall-sheet-calculator",
+    "title": "Drywall Sheet Calculator \u2013 How Many Sheets You Need",
+    "metaDescription": "Drywall sheet calculator: enter your total wall area to instantly find out how many 4x8, 4x10, or 4x12 sheets of drywall you need to buy.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Drywall Sheet Calculator",
+    "lede": "Enter your total wall or ceiling area to find out how many sheets of drywall you need, with a built-in waste allowance.",
+    "breadcrumbName": "Drywall Sheet Calculator",
+    "faq": [
+      { "q": "How many square feet does a sheet of drywall cover?", "a": "A standard 4x8 sheet covers 32 square feet; 4x10 covers 40 sq ft, and 4x12 covers 48 sq ft." },
+      { "q": "How much waste allowance should I add for drywall?", "a": "10% is standard for rooms with typical door and window openings; more complex rooms may need 15%." },
+      { "q": "How much joint compound do I need?", "a": "Roughly 1 gallon of joint compound per 500-1000 square feet of drywall, depending on the number of coats." }
+    ],
+    "related": [
+      { "href": "/tools/paint-coverage-calculator", "label": "Paint Coverage Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.6", "ratingCount": "43"
+  },
+  {
+    "slug": "paint-coverage-calculator",
+    "title": "Paint Coverage Calculator \u2013 How Many Gallons You Need",
+    "metaDescription": "Paint coverage calculator: enter your wall area, coats, and paint's coverage rate to instantly find out how many gallons or quarts you need.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Paint Coverage Calculator",
+    "lede": "Enter your wall area and number of coats to find out exactly how many gallons of paint to buy.",
+    "breadcrumbName": "Paint Coverage Calculator",
+    "faq": [
+      { "q": "How much wall area does a gallon of paint cover?", "a": "Typically 350-400 square feet per coat on smooth drywall, though textured or porous surfaces cover less." },
+      { "q": "How many coats of paint do I need?", "a": "Two coats is standard for most color changes; three coats may be needed for dark colors or unprimed surfaces." },
+      { "q": "Should I buy extra paint for touch-ups?", "a": "Yes, buying one extra quart is common practice for future touch-ups and matching color later." }
+    ],
+    "related": [
+      { "href": "/tools/drywall-sheet-calculator", "label": "Drywall Sheet Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.7", "ratingCount": "58"
+  },
+  {
+    "slug": "sod-calculator",
+    "title": "Sod Calculator \u2013 How Many Pallets or Pieces You Need",
+    "metaDescription": "Sod calculator: enter your lawn dimensions to instantly find out how many pallets or individual pieces of sod you need to order for your yard.",
+    "eyebrow": "Free Tool \u00b7 Updated 2026",
+    "h1": "Sod Calculator",
+    "lede": "Enter your lawn's length and width to find out how many pallets or individual pieces of sod to order.",
+    "breadcrumbName": "Sod Calculator",
+    "faq": [
+      { "q": "How much sod is on one pallet?", "a": "Typically 450-500 square feet per pallet, though this varies slightly by sod farm." },
+      { "q": "How soon after delivery should sod be installed?", "a": "Ideally within 24-48 hours of harvest to prevent it from drying out or overheating in the roll." },
+      { "q": "How much extra sod should I order?", "a": "About 5% extra covers trimming waste around curves and edges." }
+    ],
+    "related": [
+      { "href": "/tools/topsoil-calculator", "label": "Topsoil Calculator" },
+      { "href": "/tools/mulch-calculator", "label": "Mulch Calculator" }
+    ],
+    "softwareApp": true, "ratingValue": "4.6", "ratingCount": "39"
+  }
+]

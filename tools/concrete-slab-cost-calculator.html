@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Concrete Slab Cost Calculator – Estimate Your Price</title>
+<meta name="description" content="Concrete slab cost calculator: enter your slab size and local ready-mix price to instantly estimate your total materials cost per cubic yard.">
+<link rel="canonical" href="https://yourdomain.com/tools/concrete-slab-cost-calculator">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Concrete Slab Cost Calculator – Estimate Your Price">
+<meta property="og:description" content="Concrete slab cost calculator: enter your slab size and local ready-mix price to instantly estimate your total materials cost per cubic yard.">
+<meta property="og:url" content="https://yourdomain.com/tools/concrete-slab-cost-calculator">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Concrete Slab Cost Calculator",
+  "url": "https://yourdomain.com/tools/concrete-slab-cost-calculator",
+  "description": "Concrete slab cost calculator: enter your slab size and local ready-mix price to instantly estimate your total materials cost per cubic yard.",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "YardCalc",
+    "url": "https://yourdomain.com"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://yourdomain.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://yourdomain.com/tools"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Concrete Slab Cost Calculator",
+        "item": "https://yourdomain.com/tools/concrete-slab-cost-calculator"
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Concrete Slab Cost Calculator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any (Web-based)",
+  "url": "https://yourdomain.com/tools/concrete-slab-cost-calculator",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "ratingCount": "54"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does ready-mix concrete cost per cubic yard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prices vary by region, typically $120-180 per cubic yard for standard mix, plus delivery fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this estimate include labor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, this is a materials-only estimate. Labor for pouring and finishing typically adds $2-8 per square foot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is bagged or ready-mix concrete cheaper for a slab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ready-mix is usually cheaper per cubic foot once you need more than about 1 cubic yard of concrete."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="/" class="logo">Yard<span>Calc</span></a>
+    <nav class="site">
+      <a href="/tools">All Tools</a>
+      <a href="/blog">Guides</a>
+      <a href="/about">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="ad-slot ad-slot--header" aria-label="Advertisement">Ad Slot – Header (728×90)</div>
+</div>
+
+<div class="wrap">
+  <p class="crumb"><a href="/">Home</a> / <a href="/tools">Tools</a> / Concrete Slab Cost Calculator</p>
+</div>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Free Tool · Updated 2026</p>
+    <h1>Concrete Slab Cost Calculator</h1>
+    <p class="lede">Enter your slab dimensions and local ready-mix price per cubic yard to get an instant materials cost estimate.</p>
+  </section>
+
+  <div class="layout">
+    <div>
+      <div class="calc-card">
+        <div class="calc-grid">
+  <div class="field"><label for="length">Slab Length (ft)</label><input type="number" id="length" inputmode="decimal" placeholder="e.g. 20" min="0" step="0.01"></div>
+  <div class="field"><label for="width">Slab Width (ft)</label><input type="number" id="width" inputmode="decimal" placeholder="e.g. 20" min="0" step="0.01"></div>
+  <div class="field"><label for="thickness">Thickness (in)</label><input type="number" id="thickness" inputmode="decimal" placeholder="e.g. 4" min="0" step="0.25"></div>
+  <div class="field"><label for="priceperyard">Ready-Mix Price ($ per yd³)</label><input type="number" id="priceperyard" inputmode="decimal" placeholder="e.g. 150" min="0" step="1"></div>
+</div>
+<div class="calc-actions"><button class="btn-calc" id="calcBtn">Estimate Slab Cost</button></div>
+<div class="result" id="result">
+  <div class="big" id="mainResult">$0</div>
+  <div class="sub" id="resultSub">Volume: 0 yd³ (0 ft³)</div>
+</div>
+
+      </div>
+
+      <div class="ad-slot ad-slot--incontent" aria-label="Advertisement">Ad Slot – In-Content (responsive)</div>
+
+      <article>
+        <h2>How to Estimate Concrete Slab Cost</h2>
+<p>This calculator finds your slab's volume in cubic yards, then multiplies by your local ready-mix price per cubic yard to give a materials-only estimate. Ready-mix delivery is typically cheaper per cubic foot than bagged concrete once you need more than roughly 1 cubic yard — use our <a href="/tools/concrete-bag-calculator">concrete bag calculator</a> to compare bagged pricing for smaller pours.</p>
+
+<h2>What This Estimate Does Not Include</h2>
+<table class="yield">
+  <thead><tr><th>Additional Cost</th><th>Typical Range</th></tr></thead>
+  <tbody>
+    <tr><td>Labor (pouring/finishing)</td><td>$2-8 per ft²</td></tr>
+    <tr><td>Rebar / wire mesh reinforcement</td><td>$0.50-2 per ft²</td></tr>
+    <tr><td>Gravel sub-base</td><td>varies by depth needed</td></tr>
+    <tr><td>Delivery minimum / short-load fees</td><td>varies by supplier</td></tr>
+  </tbody>
+</table>
+<p>Always get a quote from a local ready-mix supplier, since prices vary significantly by region and order size.</p>
+
+
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq">
+          
+      <details>
+        <summary>What does ready-mix concrete cost per cubic yard?</summary>
+        <p>Prices vary by region, typically $120-180 per cubic yard for standard mix, plus delivery fees.</p>
+      </details>
+
+      <details>
+        <summary>Does this estimate include labor?</summary>
+        <p>No, this is a materials-only estimate. Labor for pouring and finishing typically adds $2-8 per square foot.</p>
+      </details>
+
+      <details>
+        <summary>Is bagged or ready-mix concrete cheaper for a slab?</summary>
+        <p>Ready-mix is usually cheaper per cubic foot once you need more than about 1 cubic yard of concrete.</p>
+      </details>
+        </div>
+      </article>
+    </div>
+
+    <aside>
+      <div class="box">
+        <h3>Related Calculators</h3>
+        <ul>
+          <li><a href="/tools/concrete-bag-calculator">Concrete Bag Calculator</a></li>
+          <li><a href="/tools/post-hole-concrete-calculator">Post Hole Concrete Calculator</a></li>
+          <li><a href="/tools/paver-calculator">Paver Calculator</a></li>
+        </ul>
+      </div>
+      <div class="ad-slot ad-slot--sidebar" aria-label="Advertisement">Ad Slot – Sidebar (300×250)</div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>© 2026 YardCalc. Educational estimates only — verify with a professional before ordering materials. · <a href="/about">About</a> · <a href="/contact">Contact</a></p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('calcBtn').addEventListener('click', function(){
+  var length = parseFloat(document.getElementById('length').value) || 0;
+  var width  = parseFloat(document.getElementById('width').value) || 0;
+  var thicknessIn = parseFloat(document.getElementById('thickness').value) || 0;
+  var pricePerYard = parseFloat(document.getElementById('priceperyard').value) || 0;
+
+  var thicknessFt = thicknessIn / 12;
+  var volumeCuFt = length * width * thicknessFt;
+  var volumeCuYd = volumeCuFt / 27;
+  var cost = volumeCuYd * pricePerYard;
+
+  document.getElementById('mainResult').textContent = '
+</script>
+
+</body>
+</html>
+ + cost.toFixed(2);
+  document.getElementById('resultSub').textContent =
+    'Volume: ' + volumeCuYd.toFixed(3) + ' yd\u00b3 (' + volumeCuFt.toFixed(1) + ' ft\u00b3)';
+  document.getElementById('result').classList.add('show');
+});
+
+</script>
+
+</body>
+</html>

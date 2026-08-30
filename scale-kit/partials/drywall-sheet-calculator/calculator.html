@@ -1,0 +1,16 @@
+<div class="calc-grid">
+  <div class="field"><label for="wallarea">Total Wall Area (ft²)</label><input type="number" id="wallarea" inputmode="decimal" placeholder="e.g. 480" min="0" step="1"></div>
+  <div class="field"><label for="sheetsize">Sheet Size</label>
+    <select id="sheetsize">
+      <option value="32">4×8 ft (32 ft²)</option>
+      <option value="40">4×10 ft (40 ft²)</option>
+      <option value="48">4×12 ft (48 ft²)</option>
+    </select>
+  </div>
+  <div class="field"><label for="waste">Waste Allowance (%)</label><input type="number" id="waste" inputmode="decimal" value="10" min="0" step="1"></div>
+</div>
+<div class="calc-actions"><button class="btn-calc" id="calcBtn">Calculate Sheets Needed</button></div>
+<div class="result" id="result">
+  <div class="big" id="mainResult">0 sheets</div>
+  <div class="sub" id="resultSub">Covers 0 ft²</div>
+</div>

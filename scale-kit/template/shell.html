@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<link rel="canonical" href="{{CANONICAL_URL}}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL_URL}}">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+
+{{SCHEMA_JSONLD}}
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a href="/" class="logo">Yard<span>Calc</span></a>
+    <nav class="site">
+      <a href="/tools">All Tools</a>
+      <a href="/blog">Guides</a>
+      <a href="/about">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="ad-slot ad-slot--header" aria-label="Advertisement">Ad Slot – Header (728×90)</div>
+</div>
+
+<div class="wrap">
+  <p class="crumb"><a href="/">Home</a> / <a href="/tools">Tools</a> / {{BREADCRUMB_NAME}}</p>
+</div>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">{{EYEBROW}}</p>
+    <h1>{{H1}}</h1>
+    <p class="lede">{{LEDE}}</p>
+  </section>
+
+  <div class="layout">
+    <div>
+      <div class="calc-card">
+        {{CALCULATOR_HTML}}
+      </div>
+
+      <div class="ad-slot ad-slot--incontent" aria-label="Advertisement">Ad Slot – In-Content (responsive)</div>
+
+      <article>
+        {{ARTICLE_HTML}}
+
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq">
+          {{FAQ_HTML}}
+        </div>
+      </article>
+    </div>
+
+    <aside>
+      <div class="box">
+        <h3>Related Calculators</h3>
+        <ul>
+          {{RELATED_LINKS_HTML}}
+        </ul>
+      </div>
+      <div class="ad-slot ad-slot--sidebar" aria-label="Advertisement">Ad Slot – Sidebar (300×250)</div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>© 2026 YardCalc. Educational estimates only — verify with a professional before ordering materials. · <a href="/about">About</a> · <a href="/contact">Contact</a></p>
+  </div>
+</footer>
+
+<script>
+{{INLINE_SCRIPT}}
+</script>
+
+</body>
+</html>

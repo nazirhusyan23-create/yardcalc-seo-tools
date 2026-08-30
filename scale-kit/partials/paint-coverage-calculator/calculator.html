@@ -1,0 +1,10 @@
+<div class="calc-grid">
+  <div class="field"><label for="wallarea">Wall Area (ft²)</label><input type="number" id="wallarea" inputmode="decimal" placeholder="e.g. 400" min="0" step="1"></div>
+  <div class="field"><label for="coats">Number of Coats</label><input type="number" id="coats" inputmode="numeric" value="2" min="1" step="1"></div>
+  <div class="field"><label for="coverage">Coverage per Gallon (ft²)</label><input type="number" id="coverage" inputmode="decimal" value="350" min="1" step="10"></div>
+</div>
+<div class="calc-actions"><button class="btn-calc" id="calcBtn">Calculate Paint Needed</button></div>
+<div class="result" id="result">
+  <div class="big" id="mainResult">0 gallons</div>
+  <div class="sub" id="resultSub">Covers 0 ft² total (with coats)</div>
+</div>
