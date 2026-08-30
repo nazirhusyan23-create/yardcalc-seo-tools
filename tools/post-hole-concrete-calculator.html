@@ -18,7 +18,179 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
-<link rel="stylesheet" href="/assets/site.css">
+<style>
+  :root{
+    --bg:#0F1720;
+    --bg-panel:#16212C;
+    --bg-panel-2:#1B2733;
+    --line:rgba(231,236,239,0.08);
+    --text:#E7ECEF;
+    --text-dim:#93A5B1;
+    --accent:#FF7A33;
+    --accent-2:#FFC845;
+    --ok:#4ADE80;
+    --radius:10px;
+    --font-display:'Space Grotesk',system-ui,sans-serif;
+    --font-body:'Inter',system-ui,sans-serif;
+    --font-mono:'IBM Plex Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:
+      linear-gradient(var(--line) 1px, transparent 1px) 0 0/40px 40px,
+      linear-gradient(90deg, var(--line) 1px, transparent 1px) 0 0/40px 40px,
+      var(--bg);
+    color:var(--text);
+    font-family:var(--font-body);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent-2);}
+  img{max-width:100%;}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 20px;}
+
+  /* Header */
+  header.site{
+    border-bottom:1px solid var(--line);
+    padding:16px 0;
+    background:rgba(15,23,32,0.85);
+    backdrop-filter:blur(6px);
+    position:sticky;top:0;z-index:20;
+  }
+  header.site .wrap{display:flex;align-items:center;justify-content:space-between;}
+  .logo{font-family:var(--font-display);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:var(--text);text-decoration:none;}
+  .logo span{color:var(--accent);}
+  nav.site a{color:var(--text-dim);text-decoration:none;font-size:.92rem;margin-left:22px;}
+  nav.site a:hover{color:var(--text);}
+
+  /* Ad slots */
+  .ad-slot{
+    display:flex;align-items:center;justify-content:center;
+    background:var(--bg-panel);
+    border:1px dashed var(--line);
+    border-radius:8px;
+    color:var(--text-dim);
+    font-family:var(--font-mono);
+    font-size:.75rem;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    min-height:90px;
+    margin:28px 0;
+  }
+  .ad-slot--header{min-height:90px;max-width:728px;margin:18px auto;}
+  .ad-slot--sidebar{min-height:250px;}
+  .ad-slot--incontent{min-height:100px;}
+
+  /* Breadcrumb */
+  .crumb{font-size:.82rem;color:var(--text-dim);padding:14px 0 0;}
+  .crumb a{color:var(--text-dim);}
+  .crumb a:hover{color:var(--accent-2);}
+
+  /* Hero / calculator */
+  main{padding-bottom:60px;}
+  .hero{padding:28px 0 8px;}
+  .eyebrow{
+    font-family:var(--font-mono);color:var(--accent);
+    font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;
+  }
+  h1{
+    font-family:var(--font-display);
+    font-size:clamp(1.7rem,3.2vw,2.5rem);
+    line-height:1.15;
+    margin:.35em 0 .3em;
+  }
+  .lede{color:var(--text-dim);max-width:62ch;font-size:1.02rem;}
+
+  .layout{display:grid;grid-template-columns:1fr 300px;gap:32px;margin-top:26px;align-items:start;}
+  @media (max-width:880px){.layout{grid-template-columns:1fr;}}
+
+  /* Calculator card */
+  .calc-card{
+    background:var(--bg-panel);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px;
+  }
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media (max-width:520px){.calc-grid{grid-template-columns:1fr;}}
+  .field label{
+    display:block;font-size:.8rem;color:var(--text-dim);
+    margin-bottom:6px;font-family:var(--font-mono);letter-spacing:.02em;
+  }
+  .field input, .field select{
+    width:100%;background:var(--bg-panel-2);
+    border:1px solid var(--line);color:var(--text);
+    padding:11px 12px;border-radius:8px;font-size:1rem;font-family:var(--font-mono);
+  }
+  .field input:focus, .field select:focus{outline:2px solid var(--accent);outline-offset:1px;}
+  .unit-row{display:flex;gap:8px;margin-top:6px;}
+  .unit-row button{
+    flex:1;background:var(--bg-panel-2);border:1px solid var(--line);
+    color:var(--text-dim);padding:7px 0;border-radius:6px;font-family:var(--font-mono);
+    font-size:.78rem;cursor:pointer;
+  }
+  .unit-row button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#1a0f08;font-weight:600;}
+
+  .calc-actions{margin-top:18px;}
+  .btn-calc{
+    background:var(--accent);color:#1a0f08;border:none;
+    font-weight:700;font-family:var(--font-display);
+    padding:13px 22px;border-radius:8px;cursor:pointer;font-size:1rem;
+    width:100%;
+  }
+  .btn-calc:hover{background:var(--accent-2);}
+
+  /* Result */
+  .result{
+    margin-top:22px;padding:18px;border-radius:8px;
+    background:var(--bg-panel-2);border:1px solid var(--line);
+    display:none;
+  }
+  .result.show{display:block;}
+  .result .big{
+    font-family:var(--font-mono);font-size:2.1rem;color:var(--ok);font-weight:600;
+  }
+  .result .sub{color:var(--text-dim);font-size:.88rem;}
+
+  /* Blueprint diagram (signature element) */
+  .diagram{margin-top:22px;background:var(--bg-panel-2);border:1px solid var(--line);border-radius:8px;padding:14px;}
+  .diagram svg{width:100%;height:auto;display:block;}
+  .diagram text{font-family:var(--font-mono);fill:var(--accent-2);font-size:11px;}
+  .diagram .dim-line{stroke:var(--text-dim);stroke-width:1;stroke-dasharray:3 3;}
+  .diagram .slab{fill:rgba(255,122,51,0.12);stroke:var(--accent);stroke-width:1.5;}
+
+  /* Sidebar */
+  aside .box{
+    background:var(--bg-panel);border:1px solid var(--line);
+    border-radius:var(--radius);padding:18px;margin-bottom:22px;
+  }
+  aside h3{font-family:var(--font-display);font-size:1rem;margin:0 0 10px;}
+  aside ul{margin:0;padding-left:18px;color:var(--text-dim);font-size:.92rem;}
+  aside li{margin-bottom:8px;}
+  aside li a{color:var(--text);}
+
+  /* Article content */
+  article{margin-top:44px;}
+  article h2{font-family:var(--font-display);font-size:1.4rem;margin-top:2em;}
+  article p{color:var(--text-dim);max-width:74ch;}
+  table.yield{width:100%;border-collapse:collapse;margin:18px 0;font-size:.92rem;}
+  table.yield th,table.yield td{border:1px solid var(--line);padding:9px 12px;text-align:left;}
+  table.yield th{background:var(--bg-panel);font-family:var(--font-mono);font-weight:600;color:var(--accent-2);}
+
+  /* FAQ */
+  .faq details{
+    background:var(--bg-panel);border:1px solid var(--line);border-radius:8px;
+    padding:14px 16px;margin-bottom:10px;
+  }
+  .faq summary{cursor:pointer;font-weight:600;font-family:var(--font-display);}
+  .faq p{margin:10px 0 0;}
+
+  footer.site{border-top:1px solid var(--line);padding:28px 0;color:var(--text-dim);font-size:.85rem;}
+  footer.site a{color:var(--text-dim);}
+
+</style>
 
 <script type="application/ld+json">
 {
@@ -125,10 +297,6 @@
 </header>
 
 <div class="wrap">
-  <div class="ad-slot ad-slot--header" aria-label="Advertisement">Ad Slot – Header (728×90)</div>
-</div>
-
-<div class="wrap">
   <p class="crumb"><a href="/">Home</a> / <a href="/tools">Tools</a> / Post Hole Concrete Calculator</p>
 </div>
 
@@ -162,8 +330,6 @@
 </div>
 
       </div>
-
-      <div class="ad-slot ad-slot--incontent" aria-label="Advertisement">Ad Slot – In-Content (responsive)</div>
 
       <article>
         <h2>How to Calculate Concrete for Fence Post Holes</h2>
@@ -210,7 +376,6 @@
           <li><a href="/tools/gravel-calculator">Gravel Calculator</a></li>
         </ul>
       </div>
-      <div class="ad-slot ad-slot--sidebar" aria-label="Advertisement">Ad Slot – Sidebar (300×250)</div>
     </aside>
   </div>
 </main>
