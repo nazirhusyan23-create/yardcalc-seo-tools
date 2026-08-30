@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://yourdomain.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://yourdomain.com/tools</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://yourdomain.com/tools/concrete-bag-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/concrete-slab-cost-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/post-hole-concrete-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/gravel-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/paver-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/mulch-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/topsoil-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/sod-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/drywall-sheet-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/tools/paint-coverage-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://yourdomain.com/about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://yourdomain.com/contact</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://yourdomain.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://yourdomain.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/concrete-bag-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/concrete-slab-cost-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/post-hole-concrete-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/gravel-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/paver-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/mulch-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/topsoil-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/sod-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/drywall-sheet-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/tools/paint-coverage-calculator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/about</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/contact</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://yardcalc-seo-tools.vercel.app/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
