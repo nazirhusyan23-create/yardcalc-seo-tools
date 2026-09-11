@@ -60,7 +60,7 @@ Sab ek hi "home & construction materials" niche cluster mein hain — Google inh
 
 ## Deploy checklist (Vercel)
 
-- [ ] `yourdomain.com` ko har file mein replace karo (title, canonical, schema `url` fields, sitemap, privacy/terms/about/contact).
+- [ ] `yardcalc-seo-tools.vercel.app` ko har file mein replace karo (title, canonical, schema `url` fields, sitemap, privacy/terms/about/contact).
 - [ ] `about.html`, `privacy-policy.html`, `terms.html`, `contact.html` mein `[BRACKETED]` placeholders (email, business name, real bio) fill karo — **yeh AdSense reviewers manually padhte hain**, generic/fake text reject ho sakta hai.
 - [ ] `/assets/site.css` already wired hai shell template se.
 - [ ] Google Search Console mein property add karo (domain verify), `sitemap.xml` submit karo — yeh manual step hai, koi tool automatically submit nahi kar sakta.

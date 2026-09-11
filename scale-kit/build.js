@@ -17,7 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SITE_URL = 'https://yourdomain.com';
+const SITE_URL = 'https://yardcalc-seo-tools.vercel.app';
 const ROOT = __dirname;
 const OUT_TOOLS_DIR = path.join(ROOT, '..', 'tools');
 const SHELL = fs.readFileSync(path.join(ROOT, 'template', 'shell.html'), 'utf8');
@@ -118,7 +118,13 @@ function buildSitemap(tools) {
   const urls = [
     { loc: `${SITE_URL}/`, priority: '1.0' },
     { loc: `${SITE_URL}/tools`, priority: '0.9' },
-    ...tools.map(t => ({ loc: `${SITE_URL}/tools/${t.slug}`, priority: '0.8' }))
+    ...tools.map(t => ({ loc: `${SITE_URL}/tools/${t.slug}`, priority: '0.8' })),
+    { loc: `${SITE_URL}/blog`, priority: '0.7' },
+    { loc: `${SITE_URL}/blog/concrete-driveway-cost-guide`, priority: '0.6' },
+    { loc: `${SITE_URL}/about`, priority: '0.5' },
+    { loc: `${SITE_URL}/contact`, priority: '0.4' },
+    { loc: `${SITE_URL}/privacy-policy`, priority: '0.3' },
+    { loc: `${SITE_URL}/terms`, priority: '0.3' }
   ];
   const body = urls.map(u => `  <url>\n    <loc>${u.loc}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
